@@ -303,7 +303,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup.txt",
-      "hash": "8b41bf5979a22a35b76c143f5d4e25c703472f13c4db5bd29850553cd738504c",
+      "hash": "8dfdd5260e57a629e93a8336ea1d09e277f9b215de02f5cf33c8b8bbc820f9e5",
       "title": "B-Rad - Basic F411 Setup",
       "firmware_version": [
         "4.3"
@@ -318,8 +318,24 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/other/Toothpick Specific Settings.txt",
+      "hash": "5447ceb189ed9c3cd9d7b4f85cefac55a4fb7a3209b4cf757767053422138d7e",
+      "title": "B-Rad - Toothpick Specific",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "B-Rad",
+        "toothpick"
+      ],
+      "author": "Bradley Dick",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/Whoop Specific Settings.txt",
-      "hash": "0fdae20540c9ce8468ae5374b0f3c12b7e9e31ed92002fdeb4afd4f9e6ea0ea9",
+      "hash": "580fe759809998a837eb73603f0760d264f1c627e56f193eba3126ded612415d",
       "title": "B-Rad - Whoop Specific",
       "firmware_version": [
         "4.3"
@@ -532,7 +548,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX - Crazybee F4 Lite 25mw Table.txt",
-      "hash": "c938b445456c851c9d9f9b9a2828428c7581fb86cf7d91856de73aa9640b0b06",
+      "hash": "7d8eef240bd5182b6246bfbf5df1ccc7c82e7d43cfc71fbda676a6c3eca18423",
       "title": "B-Rad - VTX (Crazybee F4 Lite 25mw)",
       "firmware_version": [
         "4.3"
@@ -548,7 +564,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX - Happymodel Diamond Whoop 25-200mw Table.txt",
-      "hash": "15e278f68b7e48a00608f8a6da841750b4225fe3c2ac0092e90f8d3fe751d402",
+      "hash": "6a3b59d90c811eef97c4eb1901a190ab7ca620e9dc53027316b41fe3fd26032b",
       "title": "B-Rad - VTX (Diamond Whoop 25-200mw)",
       "firmware_version": [
         "4.3"
@@ -564,7 +580,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX - Happymodel OVX300 OVX303 25-300mw Table.txt",
-      "hash": "577434ede7ec4f96bee954a73891c35df61b846494a4ec6e48905941ffb69843",
+      "hash": "610442c3ef30c17b5a3ec564b41dc90932f56cc1bab6bb9d7b28546f66833e64",
       "title": "B-Rad - VTX (OpenVTX 25-300mw)",
       "firmware_version": [
         "4.3"
