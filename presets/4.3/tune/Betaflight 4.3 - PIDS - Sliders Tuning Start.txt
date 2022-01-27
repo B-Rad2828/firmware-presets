@@ -5,7 +5,7 @@
 #$ KEYWORDS: B-Rad, tune, pids
 #$ AUTHOR: Bradley Dick
 #$ DESCRIPTION: Starting PID slider settings for a custom tune.
-#$ INCLUDE: presets/4.3/pids/defaults.txt
+#$ INCLUDE: presets/4.3/tune/defaults.txt
 
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
