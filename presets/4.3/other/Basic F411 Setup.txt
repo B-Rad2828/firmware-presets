@@ -7,6 +7,7 @@
 #$ DESCRIPTION: Basic F411 Setup
 #$ DESCRIPTION: - Smart Audio UART 2
 #$ DESCRIPTION: - Disable Accelerometer, Barometer & Magnometer
+#$ DESCRIPTION: - Vbat & Amp scaling
 #$ DESCRIPTION: - Disable unwanted beepers
 #$ DESCRIPTION: - Set channel mapping
 #$ DESCRIPTION: - My AUX switches
@@ -22,6 +23,9 @@ serial 1 2048 115200 57600 0 115200
 set acc_hardware = NONE
 set mag_hardware = NONE
 set baro_hardware = NONE
+
+set vbat_scale = 112
+set ibata_scale = 1175
 
 # beeper
 beeper -GYRO_CALIBRATED

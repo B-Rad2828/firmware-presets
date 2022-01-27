@@ -18,4 +18,8 @@ vtxtable band 6 IMD6     I CUSTOM  5732 5765 5828 5840 5866 5740    0    0
 vtxtable powerlevels 1
 vtxtable powerlabels 25
 
+set vtx_band = 4
+set vtx_channel = 1
+set vtx_power = 1
 set vtx_low_power_disarm = ON
+set vtx_freq = 5740
