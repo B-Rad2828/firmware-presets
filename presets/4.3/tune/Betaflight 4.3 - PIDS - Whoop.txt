@@ -12,6 +12,7 @@ set anti_gravity_gain = 0
 set iterm_relax_cutoff = 17
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
+
 set p_pitch = 70
 set i_pitch = 100
 set d_pitch = 76
