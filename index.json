@@ -455,7 +455,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS - Sliders Tuning Start.txt",
-      "hash": "bb38a6fdb4edf6e3733cca67ec04deedcc80ca237a1fb8746a2fa44350831ff1",
+      "hash": "5380d669ed77dbfdaa837ebf1cb29271bf7895342e0f5f69100daf62b8e451c0",
       "title": "B-Rad - PIDS (Starting Sliders)",
       "firmware_version": [
         "4.3"
@@ -466,6 +466,24 @@
         "B-Rad",
         "tune",
         "pids"
+      ],
+      "author": "Bradley Dick",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS - Toothpick.txt",
+      "hash": "b14a3e55244570382dff5405fb4d838ac9232593ab540580f9da5f596ba4655a",
+      "title": "B-Rad - PIDS (Toothpick)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "B-Rad",
+        "tune",
+        "pids",
+        "toothpick"
       ],
       "author": "Bradley Dick",
       "priority": 1000000000000

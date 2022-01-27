@@ -1,0 +1,39 @@
+#$ TITLE: B-Rad - PIDS (Toothpick)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, tune, pids, toothpick
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: Toothpick PID sliders tune
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 0
+set iterm_relax_cutoff = 17
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+set p_pitch = 53
+set i_pitch = 95
+set d_pitch = 44
+set f_pitch = 142
+set p_roll = 53
+set i_roll = 95
+set d_roll = 43
+set f_roll = 143
+set p_yaw = 53
+set i_yaw = 95
+set f_yaw = 143
+set d_min_roll = 43
+set d_min_pitch = 44
+set d_max_gain = 0
+set d_max_advance = 0
+set thrust_linear = 20
+
+set simplified_master_multiplier = 120
+set simplified_d_gain = 120
+set simplified_dmax_gain = 0
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 95
+set simplified_dterm_filter_multiplier = 140
+set simplified_dterm_filter_multiplier = 140
