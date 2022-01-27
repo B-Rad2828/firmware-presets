@@ -6,6 +6,7 @@
 #$ AUTHOR: Bradley Dick
 #$ DESCRIPTION: Whoop specific settings
 #$ DESCRIPTION: - Disable airmode & anti gravity
+#$ DESCRIPTION: - Dshot idle
 #$ DESCRIPTION: - Thrust linear
 #$ DESCRIPTION: - Battery setup
 
@@ -13,6 +14,7 @@
 feature -AIRMODE
 feature -ANTI_GRAVITY
 
+set dshot_idle_value = 400
 set thrust_linear = 50
 
 set vbat_max_cell_voltage = 425

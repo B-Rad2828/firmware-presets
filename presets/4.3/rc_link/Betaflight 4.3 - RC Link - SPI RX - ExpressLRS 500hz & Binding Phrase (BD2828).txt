@@ -10,6 +10,10 @@
 # serial (UART 1 - Default OFF)
 serial 0 0 115200 57600 0 115200
 
+# feature
+feature RX_SPI
+feature -RX_SERIAL
+
 set rx_spi_protocol = EXPRESSLRS
 
 # -- ExpressLRS SPI Receiver Binding Phrase (BD2828) --

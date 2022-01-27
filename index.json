@@ -334,7 +334,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Whoop Specific Settings.txt",
-      "hash": "580fe759809998a837eb73603f0760d264f1c627e56f193eba3126ded612415d",
+      "hash": "73b35a1ef2cc13a56f14911ee234a1802b4461ee84ea46af7a59b9527cab5191",
       "title": "B-Rad - Whoop Specific",
       "firmware_version": [
         "4.3"
@@ -383,7 +383,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK - Serial RX - ExpressLRS 500Hz.txt",
-      "hash": "1430f4e27d284e582691a03c271e371240985f7e2627bc5aae45cc0f5a874f79",
+      "hash": "c34fe224649b3cbd07033be79a655c554b3e5cb4a6a5c9c1a15be71d3a773b1f",
       "title": "B-Rad - RC Link (ExpressLRS 500Hz - Serial RX)",
       "firmware_version": [
         "4.3"
@@ -400,7 +400,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC Link - SPI RX - ExpressLRS 500hz & Binding Phrase (BD2828).txt",
-      "hash": "c3e15f1c480998bb637bb5017b2054f7fb53bf473bad8c07a0c73f10fc08f4f5",
+      "hash": "4ae4d714efbb1b9e58e29a8d6d10cce4d2058b90879f089d3b20bfafdfce0166",
       "title": "B-Rad - RC Link (ExpressLRS 500Hz - SPI RX)",
       "firmware_version": [
         "4.3"

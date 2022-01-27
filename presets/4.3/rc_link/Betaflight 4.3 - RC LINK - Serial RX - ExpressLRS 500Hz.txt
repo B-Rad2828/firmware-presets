@@ -9,7 +9,11 @@
 # serial (UART 1 - SERIAL RX)
 serial 0 64 115200 57600 0 115200
 
+# feature
+feature -RX_PARALLEL_PWM
+feature -RX_SPI
 feature RX_SERIAL
+
 set serialrx_provider = CRSF
 
 set rc_smoothing = ON
