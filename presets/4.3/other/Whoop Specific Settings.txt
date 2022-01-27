@@ -1,0 +1,15 @@
+#$ TITLE: B-Rad - Whoop Specific
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, whoop
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: Whoop specific settings
+#$ DESCRIPTION: - Disable airmode & anti gravity
+#$ DESCRIPTION: - Thrust linear 50
+
+# feature
+feature -AIRMODE
+feature -ANTI_GRAVITY
+
+set thrust_linear = 50

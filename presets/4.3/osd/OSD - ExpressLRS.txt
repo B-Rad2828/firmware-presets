@@ -1,0 +1,35 @@
+#$ TITLE: B-Rad - OSD (ExpressLRS Analog)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, osd, elrs
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: My prefered OSD setting for ELRS Analog
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_warn_batt_not_full = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_rc_smoothing = OFF
+set osd_warn_fail_safe = OFF
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_link_quality = ON
+
+set osd_link_quality_alarm = 70
+set osd_rssi_dbm_alarm = -95
+
+set osd_link_quality_pos = 2080
+set osd_rssi_dbm_pos = 2112
+set osd_tim_2_pos = 2103
+set osd_mah_drawn_pos = 2168
+set osd_craft_name_pos = 2061
+set osd_avg_cell_voltage_pos = 2135
+set osd_disarmed_pos = 2347
+
+set osd_stat_max_spd = OFF
+set osd_stat_min_rssi = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_max_fft = ON
+set vcd_video_system = PAL

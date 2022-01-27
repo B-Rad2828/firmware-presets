@@ -1,0 +1,35 @@
+#$ TITLE: B-Rad - PIDS (Whoop)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, tune, pids, whoop
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: Whoop PID sliders tune
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 0
+set iterm_relax_cutoff = 17
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set p_pitch = 70
+set i_pitch = 100
+set d_pitch = 76
+set f_pitch = 187
+set p_roll = 67
+set i_roll = 95
+set d_roll = 67
+set f_roll = 180
+set p_yaw = 67
+set i_yaw = 95
+set f_yaw = 180
+set d_min_roll = 67
+set d_min_pitch = 76
+set d_max_gain = 0
+set d_max_advance = 0
+set thrust_linear = 50
+
+set simplified_master_multiplier = 150
+set simplified_i_gain = 80
+set simplified_d_gain = 150
+set simplified_dmax_gain = 0

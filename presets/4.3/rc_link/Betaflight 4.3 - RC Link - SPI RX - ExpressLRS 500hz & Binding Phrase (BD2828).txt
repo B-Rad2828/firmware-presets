@@ -1,0 +1,25 @@
+#$ TITLE: B-Rad - RC Link (ExpressLRS 500Hz - SPI RX)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, rc, link
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: ELRS 500Hz RC link settings for an SPI RX.
+#$ DESCRIPTION: - Binding Phrase: BD2828
+
+# serial (UART 1 - Default OFF)
+serial 0 0 115200 57600 0 115200
+
+set rx_spi_protocol = EXPRESSLRS
+
+# -- ExpressLRS SPI Receiver Binding Phrase (BD2828) --
+set expresslrs_uid = 96,101,206,130,206,194
+
+# -- ExpressLRS SPI Receiver Packet Rate (500hz)
+set expresslrs_rate_index = 0
+
+set rc_smoothing = ON
+
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 5
