@@ -172,7 +172,6 @@
       "toothpick",
       "tune",
       "vtx",
-      "vtxtable",
       "whoop"
     ]
   },
@@ -523,25 +522,6 @@
         "reset",
         "clear",
         "vtx"
-      ],
-      "author": "Betaflight",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
-      "hash": "ca7751007ea115e4aef9cfc8051832205100ab4d0be45b9694d506f193cdb1d6",
-      "title": "Default 4.3 VTX table settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx",
-        "vtxtable"
       ],
       "author": "Betaflight",
       "priority": 1000000
