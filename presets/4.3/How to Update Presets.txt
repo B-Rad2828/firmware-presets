@@ -1,0 +1,20 @@
+
+How to Update Presets
+
+
+Files Location
+D:\Documents\GitHub\firmware-presets\presets
+
+- Add or edit .txt file presets
+- run "Presets Checker Indexer" when done
+
+
+- Open GitHub Desktop
+
+- Select B-Rad-Presets as current branch
+
+- Go to "Changes" tab 
+- Add anything into "summary" text box and click Commit
+- Click the "Push To Origin" tab next to branch
+
+ 
