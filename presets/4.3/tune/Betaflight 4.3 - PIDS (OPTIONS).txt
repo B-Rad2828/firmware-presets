@@ -12,11 +12,13 @@
 #$ DESCRIPTION: - Toothpick PIDS
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
+
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
-simplified_tuning apply
-set simplified_pids_mode = RPY
+
+# -- OPTIONS --
+
 
 #$ OPTION BEGIN (UNCHECKED): Sliders Starting Tune
 set p_pitch = 44

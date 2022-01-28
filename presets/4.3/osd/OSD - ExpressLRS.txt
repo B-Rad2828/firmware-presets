@@ -7,6 +7,7 @@
 #$ DESCRIPTION: My prefered OSD setting for ELRS Analog
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
+
 set osd_warn_batt_not_full = OFF
 set osd_warn_esc_fail = OFF
 set osd_warn_rc_smoothing = OFF

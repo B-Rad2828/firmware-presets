@@ -11,6 +11,9 @@
 #$ DESCRIPTION: - ExpressLRS 500Hz - SPI RX (Binding Phrase)
 
 
+# -- OPTIONS --
+
+
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - Serial RX
 
 # serial (UART 1 - SERIAL RX)
@@ -27,7 +30,6 @@ set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 5
 set rc_smoothing = ON
 #$ OPTION END
-
 
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - SPI RX (Binding Phrase)

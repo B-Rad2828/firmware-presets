@@ -11,6 +11,7 @@
 #$ DESCRIPTION: - Toothpick
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
+
 set motor_pwm_protocol = DSHOT600
 
 # disable dshot rpm telemetry
