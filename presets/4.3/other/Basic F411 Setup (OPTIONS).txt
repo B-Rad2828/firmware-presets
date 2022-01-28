@@ -10,6 +10,9 @@
 #$ DESCRIPTION: - Whoop
 #$ DESCRIPTION: - Toothpick
 
+# reset configuration to default settings
+defaults nosave
+
 # serial (Smart Audio UART 2)
 serial 1 2048 115200 57600 0 115200
 
@@ -73,10 +76,6 @@ set anti_gravity_gain = 0
 
 set thrust_linear = 50
 
-set iterm_relax = RP
-set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 17
-
 set vbat_max_cell_voltage = 425
 set vbat_min_cell_voltage = 320
 set vbat_warning_cell_voltage = 330
@@ -92,10 +91,6 @@ set anti_gravity_threshold = 250
 set anti_gravity_gain = 3500
 
 set thrust_linear = 20
-
-set iterm_relax = RP
-set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 15
 
 set vbat_max_cell_voltage = 425
 set vbat_min_cell_voltage = 320

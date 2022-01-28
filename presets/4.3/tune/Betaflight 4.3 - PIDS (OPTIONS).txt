@@ -61,6 +61,10 @@ set simplified_master_multiplier = 150
 set simplified_i_gain = 80
 set simplified_d_gain = 150
 set simplified_dmax_gain = 0
+
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 17
 #$ OPTION END
 
 

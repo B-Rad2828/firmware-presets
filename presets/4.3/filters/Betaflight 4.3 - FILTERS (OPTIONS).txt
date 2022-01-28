@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: B-Rad, filters, whoop
+#$ KEYWORDS: B-Rad, filters
 #$ AUTHOR: Bradley Dick
 #$ DESCRIPTION: Filter settings (No Bidirectional Dshot or RPM Filter)
 #$ DESCRIPTION:

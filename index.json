@@ -178,7 +178,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "58559a5c336f4359f20795681008ee228f2c9b3afcc493f52d292a2c2e7f0fd3",
+      "hash": "da0118966c58cc616344fabd6edd2eac6644e535c6078f7839d5a61d031703fc",
       "title": "B-Rad - Filters (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -187,8 +187,7 @@
       "status": "COMMUNITY",
       "keywords": [
         "B-Rad",
-        "filters",
-        "whoop"
+        "filters"
       ],
       "author": "Bradley Dick",
       "priority": 100
@@ -319,7 +318,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "65212cef3e5800623918b898459900e4ffd7a9a71a6cffa159acee969b8f8377",
+      "hash": "6fb863df3601d237c53d77558bcfe0474a415a90a76685e9cfe3e57f0155d67c",
       "title": "B-Rad - Basic F411 Setup (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -351,7 +350,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Toothpick Specific Settings.txt",
-      "hash": "eb0732f5d656657467d61a82ddac11a97cd1197d1682b27624a441ab00a5c962",
+      "hash": "4680b2557e443dc601519e1b24cc4e908528b0b7089458672ece57a478841347",
       "title": "B-Rad - Toothpick Specific",
       "firmware_version": [
         "4.3"
@@ -367,7 +366,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Whoop Specific Settings.txt",
-      "hash": "02af397ad1ec882540d8e1fca43d34886afaa06b0f94ccc3d26e600a2a4c01f9",
+      "hash": "54405477dfa5efbd9c0da4d8b10b9bbc33bfe5a56cd1faebdd22b535cffc9f8a",
       "title": "B-Rad - Whoop Specific",
       "firmware_version": [
         "4.3"
@@ -505,7 +504,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS (OPTIONS).txt",
-      "hash": "4d45e9a237b7e690b3f3d3f8a2f1b2ef8eb77c7656cf1881441fa489473ef223",
+      "hash": "b74ca6772d8e686031053ae6f13cf88e93ea234f49a8ace36da4bce508870cd2",
       "title": "B-Rad - PIDS (OPTIONS)",
       "firmware_version": [
         "4.3"

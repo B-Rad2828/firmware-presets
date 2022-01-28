@@ -17,10 +17,6 @@ set anti_gravity_gain = 3500
 
 set thrust_linear = 20
 
-set iterm_relax = RP
-set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 15
-
 set vbat_max_cell_voltage = 425
 set vbat_min_cell_voltage = 320
 set vbat_warning_cell_voltage = 335
