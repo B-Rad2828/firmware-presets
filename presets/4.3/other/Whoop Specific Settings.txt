@@ -10,12 +10,15 @@
 #$ DESCRIPTION: - Thrust linear
 #$ DESCRIPTION: - Battery setup
 
-# feature
 feature -AIRMODE
 feature -ANTI_GRAVITY
+set anti_gravity_gain = 0
 
-set dshot_idle_value = 400
 set thrust_linear = 50
+
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 17
 
 set vbat_max_cell_voltage = 425
 set vbat_min_cell_voltage = 320

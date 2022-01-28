@@ -7,9 +7,6 @@
 #$ DESCRIPTION: Whoop PID sliders tune
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
-set vbat_sag_compensation = 100
-set anti_gravity_gain = 0
-set iterm_relax_cutoff = 17
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
@@ -28,9 +25,11 @@ set d_min_roll = 67
 set d_min_pitch = 76
 set d_max_gain = 0
 set d_max_advance = 0
-set thrust_linear = 50
 
 set simplified_master_multiplier = 150
 set simplified_i_gain = 80
 set simplified_d_gain = 150
 set simplified_dmax_gain = 0
+
+simplified_tuning apply
+set simplified_pids_mode = RPY

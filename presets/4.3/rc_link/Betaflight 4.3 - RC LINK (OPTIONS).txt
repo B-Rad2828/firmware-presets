@@ -1,0 +1,53 @@
+#$ TITLE: B-Rad - RC Link (OPTIONS)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, rc, link
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: RC Link
+#$ DESCRIPTION:
+#$ DESCRIPTION: OPTIONS:
+#$ DESCRIPTION: - ExpressLRS 500Hz - Serial RX
+#$ DESCRIPTION: - ExpressLRS 500Hz - SPI RX (Binding Phrase)
+
+
+#$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - Serial RX
+
+# serial (UART 1 - SERIAL RX)
+serial 0 64 115200 57600 0 115200
+
+# feature
+feature -RX_PARALLEL_PWM
+feature -RX_SPI
+feature RX_SERIAL
+set serialrx_provider = CRSF
+
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 5
+set rc_smoothing = ON
+#$ OPTION END
+
+
+
+#$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - SPI RX (Binding Phrase)
+
+# serial (UART 1 - Default OFF)
+serial 0 0 115200 57600 0 115200
+
+# feature
+feature RX_SPI
+feature -RX_SERIAL
+set rx_spi_protocol = EXPRESSLRS
+
+# -- ExpressLRS SPI Receiver Binding Phrase (BD2828) --
+set expresslrs_uid = 96,101,206,130,206,194
+
+# -- ExpressLRS SPI Receiver Packet Rate (500hz)
+set expresslrs_rate_index = 0
+
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 5
+set rc_smoothing = ON
+#$ OPTION END
