@@ -62,6 +62,10 @@ aux 0 0 0 1875 2100 0 0
 aux 1 13 2 1375 1625 0 0
 aux 2 35 2 1900 2100 0 0
 
+# -- Wide min/max throttle
+set min_check = 1005
+set max_check = 2000
+
 set motor_pwm_protocol = DSHOT600
 set dshot_idle_value = 400
 
@@ -77,11 +81,14 @@ set vbat_sag_compensation = 100
 
 feature -AIRMODE
 
+set runaway_takeoff_prevention = OFF
+
 set thrust_linear = 50
 
 set vbat_max_cell_voltage = 425
 set vbat_min_cell_voltage = 320
 set vbat_warning_cell_voltage = 330
+set force_battery_cell_count = 1
 #$ OPTION END
 
 
