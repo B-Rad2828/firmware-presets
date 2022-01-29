@@ -1,11 +1,11 @@
-#$ TITLE: B-Rad - VTX (OpenVTX 25-300mw)
+#$ TITLE: B-Rad - VTX (OpenVTX 25-400mw)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: B-Rad, vtx
 #$ AUTHOR: Bradley Dick
 #$ DESCRIPTION: OpenVTX
-#$ DESCRIPTION: - Happymodel OVX300 & OVX303 25-300mw VTX Table
+#$ DESCRIPTION: - Happymodel OVX300 & OVX303 25-400mw VTX Table
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
 
 # SmartAudio 2.1

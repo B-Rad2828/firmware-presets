@@ -9,7 +9,7 @@
 #$ DESCRIPTION: OPTIONS:
 #$ DESCRIPTION: - Crazybee F4 Lite 25mw
 #$ DESCRIPTION: - Happymodel 25-200mw
-#$ DESCRIPTION: - Open VTX 25-300mw
+#$ DESCRIPTION: - Open VTX 25-400mw
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
 
 
@@ -57,7 +57,7 @@ set vtx_freq = 5740
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): Open VTX 25-300mw
+#$ OPTION BEGIN (UNCHECKED): Open VTX 25-400mw
 
 vtxtable bands 6
 vtxtable channels 8

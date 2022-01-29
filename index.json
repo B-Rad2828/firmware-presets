@@ -643,9 +643,9 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.3/vtx/VTX - Happymodel OVX300 OVX303 25-300mw Table.txt",
-      "hash": "610442c3ef30c17b5a3ec564b41dc90932f56cc1bab6bb9d7b28546f66833e64",
-      "title": "B-Rad - VTX (OpenVTX 25-300mw)",
+      "fullPath": "presets/4.3/vtx/VTX - Happymodel OVX300 OVX303 25-400mw Table.txt",
+      "hash": "a322edf1c1bf239166e661c3bd7ccee0e4ca0032e004aba4aa7df9c6ee4f9949",
+      "title": "B-Rad - VTX (OpenVTX 25-400mw)",
       "firmware_version": [
         "4.3"
       ],
@@ -660,7 +660,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX Tables (OPTIONS).txt",
-      "hash": "0771d7a2124daacf3d78a005e0f030a9dccaad6b634ad42ebb0d4b52ba76f8ac",
+      "hash": "12c7b0504c2ac80b50390c657b12e9e7fe7bfdc1868ea44d2813bdcc57dc8bd7",
       "title": "B-Rad - VTX Tables (OPTIONS)",
       "firmware_version": [
         "4.3"
