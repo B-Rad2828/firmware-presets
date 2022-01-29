@@ -1,0 +1,113 @@
+#$ TITLE: B-Rad - Rates (OPTIONS MULTI)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: B-Rad, rates
+#$ AUTHOR: Bradley Dick
+#$ DESCRIPTION: OPTION 1: Single Rate Profile
+#$ DESCRIPTION: - Throttle Curve
+#$ DESCRIPTION: - Freestyle
+#$ DESCRIPTION: - Race
+#$ DESCRIPTION:
+#$ DESCRIPTION: OPTION 2: Multiple Rate Profiles
+#$ DESCRIPTION: - Freestyle & Race
+#$ DESCRIPTION: - Freestyle & Race (With Throttle Curve)
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+
+# ---- OPTIONS ----
+
+
+# ---- SINGLE RATE PROFILE OPTION GROUP ----
+#$ OPTION_GROUP BEGIN: Single Rate Profile
+
+#$ OPTION BEGIN (UNCHECKED): Throttle Curve
+set thr_mid = 100
+set thr_expo = 30
+#$ OPTION END
+    
+----
+
+#$ OPTION BEGIN (UNCHECKED): Freestyle
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 120
+set pitch_rc_rate = 110
+set yaw_rc_rate = 100
+set roll_expo = 10
+set pitch_expo = 10
+set roll_srate = 65
+set pitch_srate = 65
+set yaw_srate = 60
+#$ OPTION END
+
+----
+
+#$ OPTION BEGIN (UNCHECKED): Race
+# ----
+# ---- Find Favorite variation of AyyyKayyy ----
+# ----
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+# ---- MLULTIPLE RATE PROFILES OPTION GROUP ----
+#$ OPTION_GROUP BEGIN: Multiple Rate Profiles
+
+#$ OPTION BEGIN (UNCHECKED): Freestyle & Race
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 120
+set pitch_rc_rate = 110
+set yaw_rc_rate = 100
+set roll_expo = 10
+set pitch_expo = 10
+set roll_srate = 65
+set pitch_srate = 65
+set yaw_srate = 60
+
+rateprofile 1
+
+# rateprofile 1
+# ----
+# ---- Find Favorite variation of AyyyKayyy ----
+# ----
+
+# restore original rateprofile selection
+rateprofile 0
+#$ OPTION END
+
+----
+
+#$ OPTION BEGIN (UNCHECKED): Freestyle & Race (With Throttle Curve)
+
+rateprofile 0
+
+# rateprofile 0
+set thr_mid = 100
+set thr_expo = 30
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 120
+set pitch_rc_rate = 110
+set yaw_rc_rate = 100
+set roll_expo = 10
+set pitch_expo = 10
+set roll_srate = 65
+set pitch_srate = 65
+set yaw_srate = 60
+
+rateprofile 1
+
+# rateprofile 1
+# ----
+# ---- Find Favorite variation of AyyyKayyy ----
+# ----
+
+# restore original rateprofile selection
+rateprofile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END

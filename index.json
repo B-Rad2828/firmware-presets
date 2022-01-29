@@ -178,7 +178,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "bc348bdbdf305fa3ec3f79f1099c54c07ac2ad1bd0b0175ce6baea42e3435cac",
+      "hash": "a0eac51b6021b31e68a986251ec0ff240d47ed830c123995f08c326e0ab8bfd7",
       "title": "B-Rad - Filters (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -301,7 +301,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/OSD - ExpressLRS.txt",
-      "hash": "861682a7595777549905995dd257f32e5167225b966c56a19e42d005fc95c0fe",
+      "hash": "ce28cec6065a5c1099a9efe676b335ec62d51dffe416cfdeed4fc17cb2930e03",
       "title": "B-Rad - OSD (ExpressLRS Analog)",
       "firmware_version": [
         "4.3"
@@ -318,7 +318,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "5fc2e657de1bc457da4c5275d2c0b899ab40bc2fd7d92fa4c1f5054fe3cb5dfe",
+      "hash": "b6a7ea0fb8fa464ffae1e36b54b155e0bb505bb4173e4d78c63697dc9a91ca8e",
       "title": "B-Rad - Basic F411 Setup (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -381,6 +381,38 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/rates/B-Rad - Rates (OPTIONS MULTI).txt",
+      "hash": "7cc13ae0192438101854579bcb552c44baa43feb6253da1ed1045346b9375225",
+      "title": "B-Rad - Rates (OPTIONS MULTI)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "B-Rad",
+        "rates"
+      ],
+      "author": "Bradley Dick",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/B-Rad - Rates (OPTIONS).txt",
+      "hash": "9d133a31e293e1c577eb99159ef02c8cdc71a2f8cc816c1bf5152f55a7d56315",
+      "title": "B-Rad - Rates (OPTIONS)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "B-Rad",
+        "rates"
+      ],
+      "author": "Bradley Dick",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.3/rates/defaults.txt",
       "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
       "title": "Default rates",
@@ -399,8 +431,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/My Race Rates.txt",
-      "hash": "c456401282ee1500bc5e3db6ea3afeb441e89bf9b3a463bd1030dfe7277ab8ee",
-      "title": "B-Rad - Rates (Race)",
+      "hash": "46bb7a6b8f41888e961d243f34639f51bdafcb998396511e5f4241a9c8e6d574",
+      "title": "B-Rad - Rates (OPTIONS)",
       "firmware_version": [
         "4.3"
       ],
@@ -415,7 +447,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK (OPTIONS).txt",
-      "hash": "fa1c6abe77366bb4f3a68b7537095f45131b9c327593f65d8d7633d6c0e04f2a",
+      "hash": "3ab90c25c61a465d05e7356721808ac8386669bfe1268079681999328bff5c2a",
       "title": "B-Rad - RC Link (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -504,7 +536,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS (OPTIONS).txt",
-      "hash": "032f33f93ac8fb3c43339179e7e75e759b8f457b108da9e04d609e25eda19a6f",
+      "hash": "f0d76afdb1de2ea35456e154cd5d79897ac0ffe9332459706c083ab8c65cfa81",
       "title": "B-Rad - PIDS (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -660,7 +692,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX Tables (OPTIONS).txt",
-      "hash": "12c7b0504c2ac80b50390c657b12e9e7fe7bfdc1868ea44d2813bdcc57dc8bd7",
+      "hash": "99c1eb46ca1ab42539847238bd40524e250229de28e9c82b96a29a28d837a8ec",
       "title": "B-Rad - VTX Tables (OPTIONS)",
       "firmware_version": [
         "4.3"

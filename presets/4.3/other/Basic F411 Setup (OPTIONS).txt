@@ -74,7 +74,7 @@ set yaw_motors_reversed = ON
 set vbat_sag_compensation = 100
 
 
-# -- OPTIONS --
+# ---- OPTIONS ----
 
 
 #$ OPTION BEGIN (UNCHECKED): Whoop
@@ -91,6 +91,7 @@ set vbat_warning_cell_voltage = 330
 set force_battery_cell_count = 1
 #$ OPTION END
 
+----
 
 #$ OPTION BEGIN (UNCHECKED): Toothpick
 

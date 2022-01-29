@@ -12,7 +12,7 @@
 #$ DESCRIPTION: - FrSky D16 - SPI RX
 
 
-# -- OPTIONS --
+# ---- OPTIONS ----
 
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - Serial RX
@@ -32,6 +32,7 @@ set feedforward_jitter_factor = 5
 set rc_smoothing = ON
 #$ OPTION END
 
+----
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - SPI RX (Binding Phrase)
 
@@ -55,6 +56,7 @@ set feedforward_jitter_factor = 5
 set rc_smoothing = ON
 #$ OPTION END
 
+----
 
 #$ OPTION BEGIN (UNCHECKED): FrSky D16 - SPI RX
 

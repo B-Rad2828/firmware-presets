@@ -18,7 +18,7 @@ set motor_pwm_protocol = DSHOT600
 set dshot_bidir = OFF
 
 
-# -- OPTIONS --
+# ---- OPTIONS ----
 
 
 #$ OPTION BEGIN (UNCHECKED): Whoop Filters
@@ -32,6 +32,7 @@ set gyro_lpf1_dyn_max_hz = 750
 set simplified_gyro_filter_multiplier = 150
 #$ OPTION END
 
+----
 
 #$ OPTION BEGIN (UNCHECKED): Toothpick Filters
 # -- Filter Settings --

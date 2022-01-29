@@ -13,7 +13,7 @@
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
 
 
-# -- OPTIONS --
+# ---- OPTIONS ----
 
 
 #$ OPTION BEGIN (UNCHECKED): Crazybee F4 Lite 25mw
@@ -35,6 +35,7 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5740
 #$ OPTION END
 
+----
 
 #$ OPTION BEGIN (UNCHECKED): Happymodel 25-200mw
 
@@ -56,6 +57,7 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5740
 #$ OPTION END
 
+----
 
 #$ OPTION BEGIN (UNCHECKED): Open VTX 25-400mw
 
