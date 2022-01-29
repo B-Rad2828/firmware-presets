@@ -24,6 +24,10 @@ set acc_hardware = NONE
 set mag_hardware = NONE
 set baro_hardware = NONE
 
+# feature
+feature -SOFTSERIAL
+feature -TELEMETRY
+
 set vbat_scale = 112
 set ibata_scale = 1175
 

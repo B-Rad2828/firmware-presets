@@ -318,7 +318,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "4111f9cede86886c4782f8ce88001926badab632086e6e38af72f5940c31d360",
+      "hash": "80e81d0c311c685b2e567a04d8830325b6b1583804b108f8d439d06ff5bbc6c7",
       "title": "B-Rad - Basic F411 Setup (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -334,7 +334,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup.txt",
-      "hash": "b2fa1ba81ac4c8638bb9b2b4fd316334e2df928451cf6ff8849d2fd3bf29bd07",
+      "hash": "b2fe6d2c9b7acecfe9201c4e0c8338cfdcb182f6b0bd10ba89ccede11a1df883",
       "title": "B-Rad - Basic F411 Setup",
       "firmware_version": [
         "4.3"
@@ -350,7 +350,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Toothpick Specific Settings.txt",
-      "hash": "4680b2557e443dc601519e1b24cc4e908528b0b7089458672ece57a478841347",
+      "hash": "388bf4ee93783d82bce8b12fe0e050c3c16848a7db4ae6b0c50fbf00bb477739",
       "title": "B-Rad - Toothpick Specific",
       "firmware_version": [
         "4.3"
@@ -366,7 +366,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Whoop Specific Settings.txt",
-      "hash": "54405477dfa5efbd9c0da4d8b10b9bbc33bfe5a56cd1faebdd22b535cffc9f8a",
+      "hash": "8c90f0c031dc449810fea6c10c9f3258cc3723d64dbe87db437891b0d0b71193",
       "title": "B-Rad - Whoop Specific",
       "firmware_version": [
         "4.3"
@@ -504,7 +504,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS (OPTIONS).txt",
-      "hash": "df381b56cc349a065b99b617ddf9646c28b99b955210916a75da87d679155325",
+      "hash": "032f33f93ac8fb3c43339179e7e75e759b8f457b108da9e04d609e25eda19a6f",
       "title": "B-Rad - PIDS (OPTIONS)",
       "firmware_version": [
         "4.3"

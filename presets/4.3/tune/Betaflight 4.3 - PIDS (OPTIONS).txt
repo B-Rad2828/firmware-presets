@@ -13,6 +13,8 @@
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 
+# -- PIDsum limits --
+set iterm_limit = 500
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
@@ -63,10 +65,6 @@ set simplified_master_multiplier = 150
 set simplified_i_gain = 80
 set simplified_d_gain = 150
 set simplified_dmax_gain = 0
-
-set iterm_relax = RP
-set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 17
 #$ OPTION END
 
 

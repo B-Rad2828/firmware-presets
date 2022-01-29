@@ -11,8 +11,6 @@
 #$ DESCRIPTION: - Battery setup
 
 feature -AIRMODE
-feature -ANTI_GRAVITY
-set anti_gravity_gain = 0
 
 set thrust_linear = 50
 
