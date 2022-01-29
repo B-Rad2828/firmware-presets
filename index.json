@@ -178,7 +178,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "a46883eceddb447ff2d384b1dfdad9abdb8e223c68c690a28d125a5ced037d3a",
+      "hash": "bc348bdbdf305fa3ec3f79f1099c54c07ac2ad1bd0b0175ce6baea42e3435cac",
       "title": "B-Rad - Filters (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -415,7 +415,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK (OPTIONS).txt",
-      "hash": "4f825aff4fc4125f8ea34c1871d2fd08864e1ac7fec5667a71b9904cd097047a",
+      "hash": "fa1c6abe77366bb4f3a68b7537095f45131b9c327593f65d8d7633d6c0e04f2a",
       "title": "B-Rad - RC Link (OPTIONS)",
       "firmware_version": [
         "4.3"
