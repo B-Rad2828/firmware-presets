@@ -261,7 +261,8 @@
     },
     {
       "fullPath": "presets/4.3/leds/defaults.txt",
-      "hash": "a36732f21632ee8c5949d899c1d5b87d3bd26cbcc2846ac78cbf2fc4dc6fad9b",
+      "hash": "711b7944344798ed701385ef1a237abb4b2b19876f1acbef6c54c4acac24861a",
+      "hidden": true,
       "title": "Default 4.3 LED settings",
       "firmware_version": [
         "4.3"
@@ -274,7 +275,6 @@
         "leds"
       ],
       "author": "Betaflight",
-      "hidden": true,
       "priority": 0
     },
     {

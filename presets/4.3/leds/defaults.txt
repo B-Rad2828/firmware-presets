@@ -1,3 +1,4 @@
+#$ HIDDEN: true
 #$ TITLE: Default 4.3 LED settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: LEDS
@@ -6,7 +7,6 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets LED settings to 4.3 defaults
 #$ DESCRIPTION: Options: LED, colour or mode_color resets.
-#$ HIDDEN: true
 # led designations
 
 led 0 0,0::C:0
