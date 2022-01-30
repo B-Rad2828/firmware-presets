@@ -178,7 +178,8 @@
   "presets": [
     {
       "fullPath": "presets/4.3/BF 4.3 - Defaults Dump.txt",
-      "hash": "340cde295b7b10db333f9ecbc1fba266934dd1b495605728aba44ff8d289d225",
+      "hash": "2be3782830ad361b88f23509db547360c419f4b51c89857c8aeffc122d4b0555",
+      "hidden": true,
       "title": "B-Rad - BF 4.3 - Defaults Dump",
       "firmware_version": [
         "4.3"
@@ -411,7 +412,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - TUNE (OPTIONS).txt",
-      "hash": "c3242abeba2cdf7bc3d171fb702075413b016c7072e5ec21a432221826a2109b",
+      "hash": "67cb0326d44ef39545ea8ce11b440c3d125f0998b3f7cadf929eb653180ec0f2",
       "title": "B-Rad - TUNE (OPTIONS)",
       "firmware_version": [
         "4.3"
