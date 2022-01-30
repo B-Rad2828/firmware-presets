@@ -416,7 +416,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
+      "hash": "b0d6088a18eb45f07ac33f992e094054daa600d8f8798193fbe380543854b48a",
+      "hidden": true,
       "title": "Default rates",
       "firmware_version": [
         "4.3"
