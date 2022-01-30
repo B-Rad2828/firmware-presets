@@ -279,7 +279,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
+      "hash": "dd7839fc0fa5dcfe957b6b7bb2b22d560dbb6cd11ecd21d96b99ca51a4f6decc",
+      "hidden": true,
       "title": "Default 4.3 Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
@@ -300,7 +301,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
+      "hash": "7b931462cb3708bed766b239754eca03fd26f90f56a7147499203e15229a893e",
+      "hidden": true,
       "title": "Default 4.3 OSD settings",
       "firmware_version": [
         "4.3"
@@ -498,7 +500,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "3b9253542588503388283bfc477a78e9956d9700f0f999fb8b0f749a61d7491a",
+      "hash": "5ae31152572c92ad70b46f5ad38b2094e8afc6dd7adc0eecffa98a0eb1f58016",
+      "hidden": true,
       "title": "Reset RC link feedforward related settings",
       "firmware_version": [
         "4.3"
@@ -518,7 +521,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
-      "hash": "c91b7b93cf4a33a15d606a827e983f67441ac78a9b9a11f8ecfb36d772d62739",
+      "hash": "f0026ed4050dce07d372c68baaed47349bd2d3b0868b2e957bf481382de19db7",
+      "hidden": true,
       "title": "Default 4.3 RC smoothing settings",
       "firmware_version": [
         "4.3"
@@ -626,7 +630,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "f771542d93f15f993d39d97f9004ede104ba7dfebff45f68863aa25f30275388",
+      "hash": "15f71a46f75cda6eee65d9c8f9baa93359535e3e3ffb9caf9245bbf14d11ab0b",
+      "hidden": true,
       "title": "Default 4.3 VTX settings",
       "firmware_version": [
         "4.3"
