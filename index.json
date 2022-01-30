@@ -177,6 +177,21 @@
   },
   "presets": [
     {
+      "fullPath": "presets/4.3/BF 4.3 - Defaults Dump.txt",
+      "hash": "340cde295b7b10db333f9ecbc1fba266934dd1b495605728aba44ff8d289d225",
+      "title": "B-Rad - BF 4.3 - Defaults Dump",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
       "hash": "a0eac51b6021b31e68a986251ec0ff240d47ed830c123995f08c326e0ab8bfd7",
       "title": "B-Rad - Filters (OPTIONS)",
@@ -318,7 +333,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "b6a7ea0fb8fa464ffae1e36b54b155e0bb505bb4173e4d78c63697dc9a91ca8e",
+      "hash": "9c3fed81a1985062768219b070d9ebb2d242f5f64f516d81037685078ccb665d",
       "title": "B-Rad - Basic F411 Setup (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -381,24 +396,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/B-Rad - Rates (OPTIONS MULTI).txt",
-      "hash": "7cc13ae0192438101854579bcb552c44baa43feb6253da1ed1045346b9375225",
-      "title": "B-Rad - Rates (OPTIONS MULTI)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "rates"
-      ],
-      "author": "Bradley Dick",
-      "priority": 10000
-    },
-    {
       "fullPath": "presets/4.3/rates/B-Rad - Rates (OPTIONS).txt",
-      "hash": "9d133a31e293e1c577eb99159ef02c8cdc71a2f8cc816c1bf5152f55a7d56315",
+      "hash": "dc27d8779009477f8a5904d63c13c3eed13bb6d94f241bf59be663084d718e8c",
       "title": "B-Rad - Rates (OPTIONS)",
       "firmware_version": [
         "4.3"

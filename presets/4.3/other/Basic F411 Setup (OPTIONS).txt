@@ -67,7 +67,6 @@ set min_check = 1005
 set max_check = 2000
 
 set motor_pwm_protocol = DSHOT600
-set dshot_idle_value = 400
 
 set yaw_motors_reversed = ON
 
@@ -88,7 +87,6 @@ set thrust_linear = 50
 set vbat_max_cell_voltage = 425
 set vbat_min_cell_voltage = 320
 set vbat_warning_cell_voltage = 330
-set force_battery_cell_count = 1
 #$ OPTION END
 
 ----
