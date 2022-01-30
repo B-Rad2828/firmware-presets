@@ -11,6 +11,8 @@
 #$ DESCRIPTION: Throttle limit and curve are not included
 #$ PRIORITY: 0
 
+# ------ DEFAULT RATES BEGIN ------
+
 set rates_type = ACTUAL
 set quickrates_rc_expo = OFF
 set roll_rc_rate = 7
@@ -25,3 +27,5 @@ set yaw_srate = 67
 set roll_rate_limit = 1998
 set pitch_rate_limit = 1998
 set yaw_rate_limit = 1998
+
+# ------ DEFAULT RATES END ------

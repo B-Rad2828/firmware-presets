@@ -12,6 +12,7 @@
 #$ DESCRIPTION: - Toothpick PIDS
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
+# ------ PIDS PRESET BEGIN ------
 
 # -- PIDsum limits --
 set iterm_limit = 500
@@ -92,3 +93,5 @@ set simplified_dmax_gain = 0
 set simplified_pitch_d_gain = 90
 set simplified_pitch_pi_gain = 95
 #$ OPTION END
+
+# ------ PIDS PRESET END ------

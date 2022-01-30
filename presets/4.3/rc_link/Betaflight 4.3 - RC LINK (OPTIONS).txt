@@ -11,12 +11,10 @@
 #$ DESCRIPTION: - ExpressLRS 500Hz - SPI RX (Binding Phrase)
 #$ DESCRIPTION: - FrSky D16 - SPI RX
 
-
-# ---- OPTIONS ----
-
+# ------ RC LINK PRESET BEGIN ------
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - Serial RX
-
+# ---- ExpressLRS 500Hz - Serial RX ----
 # serial (UART 1 - SERIAL RX)
 serial 0 64 115200 57600 0 115200
 
@@ -29,13 +27,16 @@ set serialrx_provider = CRSF
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 5
-set rc_smoothing = ON
+
+# -- RC Smoothing ON --
+#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
+
 #$ OPTION END
 
 ----
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - SPI RX (Binding Phrase)
-
+# ---- ExpressLRS 500Hz - SPI RX (Binding Phrase) ----
 # serial (UART 1 - Default OFF)
 serial 0 0 115200 57600 0 115200
 
@@ -53,13 +54,15 @@ set expresslrs_rate_index = 0
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 5
-set rc_smoothing = ON
+
+# -- RC Smoothing ON --
+#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
 #$ OPTION END
 
 ----
 
 #$ OPTION BEGIN (UNCHECKED): FrSky D16 - SPI RX
-
+# ---- FrSky D16 - SPI RX ----
 # serial (UART 1 - Default OFF)
 serial 0 0 115200 57600 0 115200
 
@@ -71,5 +74,9 @@ set rx_spi_protocol = FRSKY_X
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 35
 set feedforward_jitter_factor = 12
-set rc_smoothing = ON
+
+# -- RC Smoothing ON --
+#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
 #$ OPTION END
+
+# ------ RC LINK PRESET BEGIN ------

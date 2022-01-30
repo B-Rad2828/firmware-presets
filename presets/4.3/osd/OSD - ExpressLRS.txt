@@ -7,6 +7,7 @@
 #$ DESCRIPTION: My prefered OSD setting for ELRS Analog
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
+# ------ OSD PRESET BEGIN ------
 
 set osd_warn_batt_not_full = OFF
 set osd_warn_esc_fail = OFF
@@ -34,3 +35,5 @@ set osd_stat_bbox = OFF
 set osd_stat_bb_no = OFF
 set osd_stat_max_fft = ON
 set vcd_video_system = PAL
+
+# ------ OSD PRESET END ------

@@ -11,18 +11,17 @@
 #$ DESCRIPTION: - Toothpick
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
+------ FILTERS PRESET BEGIN ------
 
 set motor_pwm_protocol = DSHOT600
 
 # disable dshot rpm telemetry
 set dshot_bidir = OFF
 
-
-# ---- OPTIONS ----
-
+----
 
 #$ OPTION BEGIN (UNCHECKED): Whoop Filters
-# -- Filter Settings --
+# ---- Whoop Filters ----
 set gyro_lpf1_static_hz = 375
 set gyro_lpf2_static_hz = 750
 set dyn_notch_count = 4
@@ -35,7 +34,7 @@ set simplified_gyro_filter_multiplier = 150
 ----
 
 #$ OPTION BEGIN (UNCHECKED): Toothpick Filters
-# -- Filter Settings --
+# ---- Toothpick Filters ----
 set gyro_lpf1_static_hz = 350
 set gyro_lpf2_static_hz = 700
 set dyn_notch_count = 4
@@ -50,3 +49,5 @@ set dterm_lpf2_static_hz = 210
 set yaw_lowpass_hz = 0
 set simplified_dterm_filter_multiplier = 140
 #$ OPTION END
+
+------ FILTERS PRESET END ------

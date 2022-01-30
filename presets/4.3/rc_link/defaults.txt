@@ -8,7 +8,11 @@
 #$ DESCRIPTION: Resets RC_LINK feedforward smoothing/jitter/averaging parameters.
 #$ PRIORITY: 0
 
+# ------ DEFAULT RC LINK SETTINGS BEGIN ------
+
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 25
 set feedforward_jitter_factor = 7
 set rc_smoothing = ON
+
+# ------ DEFAULT RC LINK SETTINGS END ------

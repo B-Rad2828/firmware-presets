@@ -7,6 +7,8 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets the OSD values back to Betaflight 4.3 defaults
 
+# ------ DEFAULT OSD SETTINGS BEGIN ------
+
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
 set osd_warn_batt_not_full = ON
@@ -141,3 +143,5 @@ set osd_camera_frame_height = 11
 set osd_stat_avg_cell_value = OFF
 set osd_framerate_hz = 12
 set osd_menu_background = TRANSPARENT
+
+# ------ DEFAULT OSD SETTINGS END ------

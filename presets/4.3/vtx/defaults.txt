@@ -8,8 +8,10 @@
 #$ DESCRIPTION: Resets VTx settings and table back to 4.3 Defaults
 #$ DESCRIPTION: Only the checked settings will be reset
 
-# reset basic Vtx settings
 
+# ------ DEFAULT VTX SETTINGS BEGIN ------
+
+# reset basic Vtx settings
 set vtx_channel = 0
 set vtx_power = 0
 set vtx_low_power_disarm = OFF
@@ -18,7 +20,6 @@ set vtx_pit_mode_freq = 0
 set vtx_halfduplex = ON
 
 # reset VTx table
-
 vtxtable bands 0
 vtxtable channels 0
 vtxtable powerlevels 0
@@ -35,3 +36,5 @@ vtx 6 0 0 0 0 900 900
 vtx 7 0 0 0 0 900 900
 vtx 8 0 0 0 0 900 900
 vtx 9 0 0 0 0 900 900
+
+# ------ DEFAULT VTX SETTINGS END ------

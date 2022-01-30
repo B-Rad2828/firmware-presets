@@ -193,7 +193,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "a0eac51b6021b31e68a986251ec0ff240d47ed830c123995f08c326e0ab8bfd7",
+      "hash": "1b253d9440351f82a5eb55436c58ea4f4bde0e813d715c29db14ac01ffcba940",
       "title": "B-Rad - Filters (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
+      "hash": "51a4d4bd7d60644e76554af689aea1c645df8549df03df6c46f0086f61bcc3ff",
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
         "4.3"
@@ -301,7 +301,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "7b931462cb3708bed766b239754eca03fd26f90f56a7147499203e15229a893e",
+      "hash": "8b24e3dc53cc3b8e705535059a86b611a84711cae62492928144a6d6aefb376e",
       "hidden": true,
       "title": "Default 4.3 OSD settings",
       "firmware_version": [
@@ -319,7 +319,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/OSD - ExpressLRS.txt",
-      "hash": "ce28cec6065a5c1099a9efe676b335ec62d51dffe416cfdeed4fc17cb2930e03",
+      "hash": "83d712fe2e4468488af024016f8f3990a6c3f268e3332a6144b3104ab3b8c1df",
       "title": "B-Rad - OSD (ExpressLRS Analog)",
       "firmware_version": [
         "4.3"
@@ -336,7 +336,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "9c3fed81a1985062768219b070d9ebb2d242f5f64f516d81037685078ccb665d",
+      "hash": "6beaac9515f8ec8b9f7383245585f259dde905bf44da556077391f30a1297cb7",
       "title": "B-Rad - Basic F411 Setup (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -400,7 +400,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/B-Rad - Rates (OPTIONS).txt",
-      "hash": "dc27d8779009477f8a5904d63c13c3eed13bb6d94f241bf59be663084d718e8c",
+      "hash": "4c3c5a2fcf1c3a530743eff626c01df9eadbdeced60fc7270d2cc8fe94485ea1",
       "title": "B-Rad - Rates (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -416,7 +416,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "b0d6088a18eb45f07ac33f992e094054daa600d8f8798193fbe380543854b48a",
+      "hash": "f69959b146d5313d92f5a36de29ebf080c4e20d21f619d85b0baed7b99cce302",
       "hidden": true,
       "title": "Default rates",
       "firmware_version": [
@@ -450,7 +450,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK (OPTIONS).txt",
-      "hash": "3ab90c25c61a465d05e7356721808ac8386669bfe1268079681999328bff5c2a",
+      "hash": "82a5bc0566136e3223d518d3807e61c144a444b7b89cb37f84d0c6225a405c5e",
       "title": "B-Rad - RC Link (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -501,7 +501,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "5ae31152572c92ad70b46f5ad38b2094e8afc6dd7adc0eecffa98a0eb1f58016",
+      "hash": "aa5577d1d9f22a6327054b6571c2807822d719d6fc7a887beefde9987ef8ddfe",
       "hidden": true,
       "title": "Reset RC link feedforward related settings",
       "firmware_version": [
@@ -522,7 +522,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
-      "hash": "f0026ed4050dce07d372c68baaed47349bd2d3b0868b2e957bf481382de19db7",
+      "hash": "84a2717a891107f6ef0a2a96bf50418ba1ad5cde68caa8a112d58e14ca60a999",
       "hidden": true,
       "title": "Default 4.3 RC smoothing settings",
       "firmware_version": [
@@ -541,7 +541,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS (OPTIONS).txt",
-      "hash": "f0d76afdb1de2ea35456e154cd5d79897ac0ffe9332459706c083ab8c65cfa81",
+      "hash": "8f42889e38a3526d92c35ee2fe2a4fad76e9f821e697fc2d4acd45cb77a3d887",
       "title": "B-Rad - PIDS (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -611,7 +611,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "a34613c8541c3bf5611d5d3596ece890b902fd8d2378e7f6a03b60a59b61230b",
+      "hash": "4fe449964ddf47ecc0ce6dd760411ddaf6a034bfee8a403a503ce83f8fcdb19f",
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
         "4.3"
@@ -627,11 +627,11 @@
         "default"
       ],
       "author": "Betaflight",
-      "priority": 0
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "15f71a46f75cda6eee65d9c8f9baa93359535e3e3ffb9caf9245bbf14d11ab0b",
+      "hash": "ade84d7ee309f137ac06582766f57c9cc672611e63590fbd684a485b2fc98f17",
       "hidden": true,
       "title": "Default 4.3 VTX settings",
       "firmware_version": [
@@ -698,7 +698,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX Tables (OPTIONS).txt",
-      "hash": "99c1eb46ca1ab42539847238bd40524e250229de28e9c82b96a29a28d837a8ec",
+      "hash": "41d42b7b2897da530fd5ce403838deb22a91a23c8b670057918853c7ba8c7185",
       "title": "B-Rad - VTX Tables (OPTIONS)",
       "firmware_version": [
         "4.3"
