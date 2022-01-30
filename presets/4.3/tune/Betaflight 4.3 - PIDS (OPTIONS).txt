@@ -20,10 +20,12 @@ set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
 
-# ---- OPTIONS ----
+# ------ OPTIONS ------
 
 
 #$ OPTION BEGIN (UNCHECKED): Sliders Starting Tune
+# ---- Sliders Starting Tune ----
+
 set p_pitch = 44
 set i_pitch = 7
 set d_pitch = 6
@@ -45,9 +47,11 @@ set simplified_pitch_d_gain = 90
 set simplified_pitch_pi_gain = 95
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Whoop PIDS
+# ---- Whoop PIDS ----
+
 set p_pitch = 70
 set i_pitch = 100
 set d_pitch = 76
@@ -69,9 +73,11 @@ set simplified_d_gain = 150
 set simplified_dmax_gain = 0
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Toothpick PIDS
+# ---- Toothpick PIDS ----
+
 set p_pitch = 53
 set i_pitch = 95
 set d_pitch = 44

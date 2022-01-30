@@ -25,7 +25,7 @@ set pitch_srate = 65
 set yaw_srate = 60
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Race (Slow)
 # ---- Race (Slow) ----
@@ -41,9 +41,10 @@ set pitch_srate = 45
 set yaw_srate = 40
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Both Freestyle & Race (Slow)
+# ---- Both Freestyle & Race (Slow) ----
 
 rateprofile 0
 # -- Race / Freestyle --

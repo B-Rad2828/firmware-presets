@@ -16,6 +16,7 @@
 
 #$ OPTION BEGIN (UNCHECKED): Crazybee F4 Lite 25mw
 # ---- Crazybee F4 Lite 25mw ---- 
+
 vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
@@ -33,10 +34,11 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5740
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Happymodel 25-200mw
 # ---- Happymodel 25-200mw ---- 
+
 vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
@@ -55,10 +57,11 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5740
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Open VTX 25-400mw
 # ---- Open VTX 25-400mw ---- 
+
 vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725

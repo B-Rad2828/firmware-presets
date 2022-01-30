@@ -193,7 +193,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "1b253d9440351f82a5eb55436c58ea4f4bde0e813d715c29db14ac01ffcba940",
+      "hash": "8363e642aa1c3614ad0718b16f3147bd3f984a81f86c8a6884f31f3b20af209c",
       "title": "B-Rad - Filters (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -336,7 +336,7 @@
     },
     {
       "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "6beaac9515f8ec8b9f7383245585f259dde905bf44da556077391f30a1297cb7",
+      "hash": "36a9ff11003634cbf0e8d60adcad80e1f29753f8caed1c005adb2ae1b8ca4f8c",
       "title": "B-Rad - Basic F411 Setup (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -400,7 +400,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/B-Rad - Rates (OPTIONS).txt",
-      "hash": "4c3c5a2fcf1c3a530743eff626c01df9eadbdeced60fc7270d2cc8fe94485ea1",
+      "hash": "1a57ddf4a6766cbf1990b94f75c4e35240d3a3f62862abfe73ae106658ed3bde",
       "title": "B-Rad - Rates (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -450,7 +450,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK (OPTIONS).txt",
-      "hash": "2f35426713b166498725d5baa4f186066c974fa7b461150e7a43b8737e6c24aa",
+      "hash": "027a59aac9cdb6a7e2f7cc296596f3283de27147970eea4ab4aaed0aee040440",
       "title": "B-Rad - RC Link (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -541,7 +541,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS (OPTIONS).txt",
-      "hash": "8f42889e38a3526d92c35ee2fe2a4fad76e9f821e697fc2d4acd45cb77a3d887",
+      "hash": "c181e0bfcc2ac8e72668454b8ce302d186a10630f61264f3d18634b5751af3ba",
       "title": "B-Rad - PIDS (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -698,7 +698,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/VTX Tables (OPTIONS).txt",
-      "hash": "41d42b7b2897da530fd5ce403838deb22a91a23c8b670057918853c7ba8c7185",
+      "hash": "2655d3a582d1e612061552c05f54395d5f019d91dea825a7d4cd34532af55a47",
       "title": "B-Rad - VTX Tables (OPTIONS)",
       "firmware_version": [
         "4.3"

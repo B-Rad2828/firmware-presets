@@ -18,10 +18,10 @@ set motor_pwm_protocol = DSHOT600
 # disable dshot rpm telemetry
 set dshot_bidir = OFF
 
-----
 
 #$ OPTION BEGIN (UNCHECKED): Whoop Filters
 # ---- Whoop Filters ----
+
 set gyro_lpf1_static_hz = 375
 set gyro_lpf2_static_hz = 750
 set dyn_notch_count = 4
@@ -31,10 +31,11 @@ set gyro_lpf1_dyn_max_hz = 750
 set simplified_gyro_filter_multiplier = 150
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Toothpick Filters
 # ---- Toothpick Filters ----
+
 set gyro_lpf1_static_hz = 350
 set gyro_lpf2_static_hz = 700
 set dyn_notch_count = 4

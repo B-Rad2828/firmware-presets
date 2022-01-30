@@ -79,6 +79,7 @@ set vbat_sag_compensation = 100
 
 #$ OPTION BEGIN (UNCHECKED): Whoop
 # ---- Whoop ----
+
 feature -AIRMODE
 
 set runaway_takeoff_prevention = OFF
@@ -90,10 +91,11 @@ set vbat_min_cell_voltage = 320
 set vbat_warning_cell_voltage = 330
 #$ OPTION END
 
-----
+
 
 #$ OPTION BEGIN (UNCHECKED): Toothpick
 # ---- Toothpick ----
+
 set thrust_linear = 20
 
 set vbat_max_cell_voltage = 425
