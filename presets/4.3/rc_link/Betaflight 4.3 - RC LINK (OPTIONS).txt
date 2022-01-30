@@ -15,6 +15,7 @@
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - Serial RX
 # ---- ExpressLRS 500Hz - Serial RX ----
+
 # serial (UART 1 - SERIAL RX)
 serial 0 64 115200 57600 0 115200
 
@@ -28,15 +29,19 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 5
 
-# -- RC Smoothing ON --
-#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
-
+set rc_smoothing = ON
+set rc_smoothing_auto_factor = 30
+set rc_smoothing_auto_factor_throttle = 30
+set rc_smoothing_setpoint_cutoff = 0
+set rc_smoothing_feedforward_cutoff = 0
+set rc_smoothing_throttle_cutoff = 0
+set rc_smoothing_debug_axis = ROLL
 #$ OPTION END
 
-----
 
 #$ OPTION BEGIN (UNCHECKED): ExpressLRS 500Hz - SPI RX (Binding Phrase)
 # ---- ExpressLRS 500Hz - SPI RX (Binding Phrase) ----
+
 # serial (UART 1 - Default OFF)
 serial 0 0 115200 57600 0 115200
 
@@ -55,14 +60,19 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 5
 
-# -- RC Smoothing ON --
-#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
+set rc_smoothing = ON
+set rc_smoothing_auto_factor = 30
+set rc_smoothing_auto_factor_throttle = 30
+set rc_smoothing_setpoint_cutoff = 0
+set rc_smoothing_feedforward_cutoff = 0
+set rc_smoothing_throttle_cutoff = 0
+set rc_smoothing_debug_axis = ROLL
 #$ OPTION END
 
-----
 
 #$ OPTION BEGIN (UNCHECKED): FrSky D16 - SPI RX
 # ---- FrSky D16 - SPI RX ----
+
 # serial (UART 1 - Default OFF)
 serial 0 0 115200 57600 0 115200
 
@@ -75,8 +85,13 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 35
 set feedforward_jitter_factor = 12
 
-# -- RC Smoothing ON --
-#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
+set rc_smoothing = ON
+set rc_smoothing_auto_factor = 30
+set rc_smoothing_auto_factor_throttle = 30
+set rc_smoothing_setpoint_cutoff = 0
+set rc_smoothing_feedforward_cutoff = 0
+set rc_smoothing_throttle_cutoff = 0
+set rc_smoothing_debug_axis = ROLL
 #$ OPTION END
 
-# ------ RC LINK PRESET BEGIN ------
+# ------ RC LINK PRESET END ------
