@@ -7,8 +7,8 @@
 #$ DESCRIPTION: BF4.3 Tunes
 #$ DESCRIPTION:
 #$ DESCRIPTION: OPTIONS:
-#$ DESCRIPTION: - Whoop -for 1S 65mm & 75mm Whoops
-#$ DESCRIPTION: - Toothpick - for 1-2S 2.5" & 3" Toothpicks
+#$ DESCRIPTION: - Whoop - 1S 65mm & 75mm Whoops
+#$ DESCRIPTION: - Toothpick - 1-2S 2.5" & 3" Toothpicks
 #$ DESCRIPTION: 
 #$ DESCRIPTION: (These tunes are for 24kHz PWM with no RPM filtering)
 #$ INCLUDE: presets/4.3/tune/defaults.txt
@@ -21,7 +21,7 @@ set iterm_limit = 500
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
-# disable dshot rpm telemetry
+# -- disable dshot rpm telemetry --
 set dshot_bidir = OFF
 
 set motor_pwm_protocol = DSHOT600

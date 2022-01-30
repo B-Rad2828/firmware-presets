@@ -192,24 +192,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "b098cb2dda8c28ab338484f42a34992ab7adabe225467f32b1cf65eaff836e65",
-      "title": "B-Rad - Filters (OPTIONS)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "filters"
-      ],
-      "author": "Bradley Dick",
-      "priority": 100
-    },
-    {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "51a4d4bd7d60644e76554af689aea1c645df8549df03df6c46f0086f61bcc3ff",
+      "hash": "5a26fea7774841fa7eff81f79d66353a0118f591793fb8a6e36e43ed38287cd2",
+      "hidden": true,
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
         "4.3"
@@ -426,7 +411,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - TUNE (OPTIONS).txt",
-      "hash": "011c6a030bf6b07fd24969a8a0351396d0eff88a7ae218adc177729d33ff6528",
+      "hash": "c3242abeba2cdf7bc3d171fb702075413b016c7072e5ec21a432221826a2109b",
       "title": "B-Rad - TUNE (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -446,7 +431,8 @@
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "4fe449964ddf47ecc0ce6dd760411ddaf6a034bfee8a403a503ce83f8fcdb19f",
+      "hash": "00eac8a1fee6aff5b317b4b5f32231f1b69d9db36b2ec6197e4ae4bd2a21f903",
+      "hidden": true,
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
         "4.3"

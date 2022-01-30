@@ -1,3 +1,4 @@
+#$ HIDDEN: true
 #$ TITLE:  Tune defaults for Basic 4.3 TUNES
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
