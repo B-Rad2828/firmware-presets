@@ -8,13 +8,16 @@
 #$ DESCRIPTION: - Smart Audio UART 2
 #$ DESCRIPTION: - Disable Accelerometer, Barometer & Magnometer
 #$ DESCRIPTION: - Vbat & Amp scaling
-#$ DESCRIPTION: - Disable unwanted beepers
+#$ DESCRIPTION: - Disable unwanted features & beepers
 #$ DESCRIPTION: - Set channel mapping
 #$ DESCRIPTION: - My AUX switches
-#$ DESCRIPTION: - Dshot600
+#$ DESCRIPTION: - Wider throttle response range
 #$ DESCRIPTION: - Motor direction reversed
-#$ DESCRIPTION: - Vbat sag compensation
-#$ DESCRIPTION: - Increase pidsum limits
+
+# ------ F411 SETUP PRESET BEGIN ------
+
+# reset configuration to default settings
+defaults nosave
 
 # serial (Smart Audio UART 2)
 serial 1 2048 115200 57600 0 115200
@@ -64,9 +67,10 @@ aux 0 0 0 1875 2100 0 0
 aux 1 13 2 1375 1625 0 0
 aux 2 35 2 1900 2100 0 0
 
-set motor_pwm_protocol = DSHOT600
-set dshot_idle_value = 400
+# -- Wide min/max throttle
+set min_check = 1005
+set max_check = 2000
 
 set yaw_motors_reversed = ON
 
-set vbat_sag_compensation = 100
+# ------ F411 SETUP PRESET END ------

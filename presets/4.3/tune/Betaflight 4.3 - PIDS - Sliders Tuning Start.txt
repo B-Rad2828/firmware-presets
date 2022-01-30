@@ -7,6 +7,22 @@
 #$ DESCRIPTION: Starting PID slider settings for a custom tune.
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
+# ------ PIDS PRESET BEGIN ------
+
+# -- PIDsum limits --
+set iterm_limit = 500
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+# disable dshot rpm telemetry
+set dshot_bidir = OFF
+
+set motor_pwm_protocol = DSHOT600
+
+set vbat_sag_compensation = 100
+
+# ---- Starting PID slider settings ----
+
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
@@ -32,3 +48,5 @@ set simplified_pitch_pi_gain = 95
 
 simplified_tuning apply
 set simplified_pids_mode = RPY
+
+# ------ TUNE PRESET END ------

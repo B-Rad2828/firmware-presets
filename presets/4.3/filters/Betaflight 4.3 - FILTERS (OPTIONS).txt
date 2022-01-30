@@ -11,7 +11,7 @@
 #$ DESCRIPTION: - Toothpick
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
------- FILTERS PRESET BEGIN ------
+# ------ FILTERS PRESET BEGIN ------
 
 set motor_pwm_protocol = DSHOT600
 
@@ -51,4 +51,4 @@ set yaw_lowpass_hz = 0
 set simplified_dterm_filter_multiplier = 140
 #$ OPTION END
 
------- FILTERS PRESET END ------
+# ------ FILTERS PRESET END ------

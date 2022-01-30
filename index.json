@@ -193,7 +193,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS (OPTIONS).txt",
-      "hash": "8363e642aa1c3614ad0718b16f3147bd3f984a81f86c8a6884f31f3b20af209c",
+      "hash": "b098cb2dda8c28ab338484f42a34992ab7adabe225467f32b1cf65eaff836e65",
       "title": "B-Rad - Filters (OPTIONS)",
       "firmware_version": [
         "4.3"
@@ -203,40 +203,6 @@
       "keywords": [
         "B-Rad",
         "filters"
-      ],
-      "author": "Bradley Dick",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS - Non RPM Filterig (Toothpick).txt",
-      "hash": "20d93f78d7e7c8f0f31f486d917a2acb90fad7bcc879eb0dd609df05c0eaf8ad",
-      "title": "B-Rad - Filters (Toothpick)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "filters",
-        "toothpick"
-      ],
-      "author": "Bradley Dick",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/filters/Betaflight 4.3 - FILTERS - Non RPM Filterig (Whoop).txt",
-      "hash": "50b771aab91d66f7995724a75fa4ec23a258a2499d4978f740ff54cff0587a40",
-      "title": "B-Rad - Filters (Whoop)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "filters",
-        "whoop"
       ],
       "author": "Bradley Dick",
       "priority": 100
@@ -335,24 +301,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/other/Basic F411 Setup (OPTIONS).txt",
-      "hash": "36a9ff11003634cbf0e8d60adcad80e1f29753f8caed1c005adb2ae1b8ca4f8c",
-      "title": "B-Rad - Basic F411 Setup (OPTIONS)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "F411"
-      ],
-      "author": "Bradley Dick",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/other/Basic F411 Setup.txt",
-      "hash": "b2fe6d2c9b7acecfe9201c4e0c8338cfdcb182f6b0bd10ba89ccede11a1df883",
+      "hash": "c20eab9afeaa8b3a52b673472327023eb6b087c4c30c199ed9fb22fb51bd96e8",
       "title": "B-Rad - Basic F411 Setup",
       "firmware_version": [
         "4.3"
@@ -362,38 +312,6 @@
       "keywords": [
         "B-Rad",
         "F411"
-      ],
-      "author": "Bradley Dick",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/Toothpick Specific Settings.txt",
-      "hash": "388bf4ee93783d82bce8b12fe0e050c3c16848a7db4ae6b0c50fbf00bb477739",
-      "title": "B-Rad - Toothpick Specific",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "toothpick"
-      ],
-      "author": "Bradley Dick",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/Whoop Specific Settings.txt",
-      "hash": "8c90f0c031dc449810fea6c10c9f3258cc3723d64dbe87db437891b0d0b71193",
-      "title": "B-Rad - Whoop Specific",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "whoop"
       ],
       "author": "Bradley Dick",
       "priority": 0
@@ -433,59 +351,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/My Race Rates.txt",
-      "hash": "269ff5ad4a5527e503085def41086213e3f33d8e98e8dde0b4793026f099500b",
-      "title": "B-Rad - Rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "rates"
-      ],
-      "author": "Bradley Dick",
-      "priority": 10000
-    },
-    {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK (OPTIONS).txt",
       "hash": "027a59aac9cdb6a7e2f7cc296596f3283de27147970eea4ab4aaed0aee040440",
       "title": "B-Rad - RC Link (OPTIONS)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "rc",
-        "link"
-      ],
-      "author": "Bradley Dick",
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK - Serial RX - ExpressLRS 500Hz.txt",
-      "hash": "c34fe224649b3cbd07033be79a655c554b3e5cb4a6a5c9c1a15be71d3a773b1f",
-      "title": "B-Rad - RC Link (ExpressLRS 500Hz - Serial RX)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "rc",
-        "link"
-      ],
-      "author": "Bradley Dick",
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC Link - SPI RX - ExpressLRS 500hz & Binding Phrase (BD2828).txt",
-      "hash": "4ae4d714efbb1b9e58e29a8d6d10cce4d2058b90879f089d3b20bfafdfce0166",
-      "title": "B-Rad - RC Link (ExpressLRS 500Hz - SPI RX)",
       "firmware_version": [
         "4.3"
       ],
@@ -540,25 +408,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS (OPTIONS).txt",
-      "hash": "c181e0bfcc2ac8e72668454b8ce302d186a10630f61264f3d18634b5751af3ba",
-      "title": "B-Rad - PIDS (OPTIONS)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "tune",
-        "pids"
-      ],
-      "author": "Bradley Dick",
-      "priority": 1000000000000
-    },
-    {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS - Sliders Tuning Start.txt",
-      "hash": "92ecfd0fc8816e177f24f77c71f89332a2460168fefdd9257f346ae61c373812",
+      "hash": "3cf79098768d28bbcc54ff0e63bcca725df11cd5e307f5e0002e497d3b5c4c8e",
       "title": "B-Rad - PIDS (Starting Sliders)",
       "firmware_version": [
         "4.3"
@@ -574,9 +425,9 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS - Toothpick.txt",
-      "hash": "2a45a7c30cc3eab4930e1b956db1491ee743a54c5d6331129eae76f35e00cd72",
-      "title": "B-Rad - PIDS (Toothpick)",
+      "fullPath": "presets/4.3/tune/Betaflight 4.3 - TUNE (OPTIONS).txt",
+      "hash": "011c6a030bf6b07fd24969a8a0351396d0eff88a7ae218adc177729d33ff6528",
+      "title": "B-Rad - TUNE (OPTIONS)",
       "firmware_version": [
         "4.3"
       ],
@@ -586,25 +437,9 @@
         "B-Rad",
         "tune",
         "pids",
+        "filters",
+        "whoop",
         "toothpick"
-      ],
-      "author": "Bradley Dick",
-      "priority": 1000000000000
-    },
-    {
-      "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS - Whoop.txt",
-      "hash": "693d281bf5c051e6387c22c57777bfceec3fb90085fe51d365d09128df870a9a",
-      "title": "B-Rad - PIDS (Whoop)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "tune",
-        "pids",
-        "whoop"
       ],
       "author": "Bradley Dick",
       "priority": 1000000000000
@@ -646,54 +481,6 @@
         "vtx"
       ],
       "author": "Betaflight",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/VTX - Crazybee F4 Lite 25mw Table.txt",
-      "hash": "7d8eef240bd5182b6246bfbf5df1ccc7c82e7d43cfc71fbda676a6c3eca18423",
-      "title": "B-Rad - VTX (Crazybee F4 Lite 25mw)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "vtx"
-      ],
-      "author": "Bradley Dick",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/VTX - Happymodel Diamond Whoop 25-200mw Table.txt",
-      "hash": "6a3b59d90c811eef97c4eb1901a190ab7ca620e9dc53027316b41fe3fd26032b",
-      "title": "B-Rad - VTX (Diamond Whoop 25-200mw)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "vtx"
-      ],
-      "author": "Bradley Dick",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/VTX - Happymodel OVX300 OVX303 25-400mw Table.txt",
-      "hash": "a322edf1c1bf239166e661c3bd7ccee0e4ca0032e004aba4aa7df9c6ee4f9949",
-      "title": "B-Rad - VTX (OpenVTX 25-400mw)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "B-Rad",
-        "vtx"
-      ],
-      "author": "Bradley Dick",
       "priority": 1000000
     },
     {
