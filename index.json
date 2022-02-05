@@ -320,7 +320,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "f69959b146d5313d92f5a36de29ebf080c4e20d21f619d85b0baed7b99cce302",
+      "hash": "c1969bd2cddff1ab71bb833f977edd47a1576cdacd04829ff2b4baf8c4919c64",
       "hidden": true,
       "title": "Default rates",
       "firmware_version": [
@@ -334,7 +334,7 @@
         "actual"
       ],
       "author": "Betaflight",
-      "priority": 0
+      "priority": 10000
     },
     {
       "fullPath": "presets/4.3/rc_link/Betaflight 4.3 - RC LINK (OPTIONS).txt",
@@ -355,7 +355,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "aa5577d1d9f22a6327054b6571c2807822d719d6fc7a887beefde9987ef8ddfe",
+      "hash": "48f86c68d7efbf0de00fa70d4f6d41d2dc551c37fe26a104870529b593c7347f",
       "hidden": true,
       "title": "Reset RC link feedforward related settings",
       "firmware_version": [
@@ -372,7 +372,7 @@
         "ff"
       ],
       "author": "Betaflight",
-      "priority": 0
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
@@ -432,7 +432,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "00eac8a1fee6aff5b317b4b5f32231f1b69d9db36b2ec6197e4ae4bd2a21f903",
+      "hash": "8466013cbfd65873b5cb328b8d0be86602757e5c9ecb559ed5b979bb5a4c4fc2",
       "hidden": true,
       "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
@@ -453,7 +453,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "ade84d7ee309f137ac06582766f57c9cc672611e63590fbd684a485b2fc98f17",
+      "hash": "e02e7f724e4117e071afbf0ed024a65ed3a4296e9be1946a72c4b26d3314e273",
       "hidden": true,
       "title": "Default 4.3 VTX settings",
       "firmware_version": [
