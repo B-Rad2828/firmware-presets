@@ -395,7 +395,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - PIDS - Sliders Tuning Start.txt",
-      "hash": "3cf79098768d28bbcc54ff0e63bcca725df11cd5e307f5e0002e497d3b5c4c8e",
+      "hash": "6464ac3b0e93a7e3db5a192bf7a69a74a2ff4fc4a8c4dc1bc2de08d357e63159",
       "title": "B-Rad - PIDS (Starting Sliders)",
       "firmware_version": [
         "4.3"
@@ -412,7 +412,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/Betaflight 4.3 - TUNE (OPTIONS).txt",
-      "hash": "67cb0326d44ef39545ea8ce11b440c3d125f0998b3f7cadf929eb653180ec0f2",
+      "hash": "39dfe6a65eee717db46af4011a059d0ee1dbb6a206709048ab873ccbbdbf5c4e",
       "title": "B-Rad - TUNE (OPTIONS)",
       "firmware_version": [
         "4.3"

@@ -45,7 +45,6 @@ set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 0
 set simplified_pitch_d_gain = 90
 set simplified_pitch_pi_gain = 95
-
 simplified_tuning apply
 set simplified_pids_mode = RPY
 
